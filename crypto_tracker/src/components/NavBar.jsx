@@ -10,7 +10,7 @@ function NavBar() {
 
        <div className="container-fluid ">
 
-          <span className="text-warning fs-2 py-1">Crypto Tracker </span>
+          <span className="myColor fs-2 py-1">Crypto Tracker </span>
 
         </div>
         

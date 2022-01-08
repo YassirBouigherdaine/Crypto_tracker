@@ -3,16 +3,21 @@
   padding: 0px;
   margin:0px;
 background-color: #1a1a1c;
-color: white;
+
 }
+
+.myColor{
+  color: rgb(0, 255, 150);
+}
+
 
 .myList{
   list-style: none;
 }
 
 .coin img{
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   margin-right: 30px;
   
 }
@@ -37,6 +42,7 @@ color: white;
   padding-top: 25px;
   justify-content:space-around;
   background: transparent;
+  color: white;
 }
 
 .tagline{
@@ -45,7 +51,11 @@ color: white;
   flex-direction: column;
   justify-content:center;
   text-align:center;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background: transparent;
 }
 
+nav{
+  height: 65px;
+}

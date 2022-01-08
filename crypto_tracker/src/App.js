@@ -1,19 +1,17 @@
 import React from 'react';
-import { Routes, Route, Link } from "react-router-dom";
-import Banner from './components/banner/Banner';
-import Coins from './components/coins/Coins';
-import NavBar from './components/NavBar';
+import { Routes, Route,} from "react-router-dom";
+import CoinPage from './components/coins/CoinPage';
+import HomePage from './components/HomePage';
 
 
 
 function App() {
 
   return (
-    <div className="">
-      <NavBar/>
-      <Banner/>
+    <div>
       <Routes>
-        <Route path="/" element={<Coins/>} />
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/coins/:id" element={<CoinPage/>} />
       </Routes>
     </div>
   );
